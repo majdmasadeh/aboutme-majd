@@ -162,3 +162,5 @@ else{alert('Wrong Ans.');
     alert('welcome ' + username + ' and thanks for doing the quiz,I wish to you the best ');
     document.write('<p> ^_^ thanks for doing the quiz, I wish to you the best ^_^ </p> ');
     alert (" Thanks for your time"+ username);
+
+    
