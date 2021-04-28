@@ -32,6 +32,7 @@ nav ul li {
 }
 
 ul {
+  text-align: center;
     list-style-type:none;
     
   }
@@ -66,10 +67,7 @@ ul {
             h3{
                 text-align: center;
               }
-                          ol  {
-                            display: inline-block;
-              margin-left : 45%;  
-                 }       
+                   
               
                  h2{
                    text-align: center;
