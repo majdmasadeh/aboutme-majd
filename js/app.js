@@ -40,6 +40,7 @@ console.log(question5);
 if (question5==='yes' || question5==='y')
 {alert('correct ans.');}
 else{alert('Wrong Ans.');}
+/* jjjjj*/
 
 
 
