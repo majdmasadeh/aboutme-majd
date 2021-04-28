@@ -124,6 +124,28 @@ else{alert('Wrong Ans.');
 }
     
     MYDRINK();
+
+
+    function luckNum(){
+        for (let i = 1; i <=10; i++) {
+            let luckNum = prompt('please guess my luckNum ');
+            if (luckNum >= 8) {
+                
+                alert('it is too high')
+            } else if (luckNum <= 6) {
+                
+                alert('it is too low')
+            } else if (luckNum == 7) {
+                //console.log(myAge);
+                //console.log('it is true');
+                alert('it is true')
+                score++;
+                break;
+        
+            }
+        }
+        }
+        luckNum();
    
     
 
@@ -132,10 +154,11 @@ else{alert('Wrong Ans.');
     document.write('<br>');
     document.write('<p> my fav animals are: ' + animals + '</p>');
     document.write("<pre>");
-    alert('Your Score is ' + score + '/7 ');
+    alert('Your Score is ' + score + '/8 ');
     document.write('<br>');
-    document.write('<p> you have guessed ' + score + 'question about me </p>');
+    document.write('<p> Good Job!... You got ' + score + ' correct answers! </p>');
     document.write('<br>');
     document.write('<br>');
     alert('welcome ' + username + ' and thanks for doing the quiz,I wish to you the best ');
     document.write('<p> ^_^ thanks for doing the quiz, I wish to you the best ^_^ </p> ');
+    alert (" Thanks for your time"+ username);
