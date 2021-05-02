@@ -148,7 +148,7 @@ else{alert('Wrong Ans.');
         luckNum();
    
     
-
+/*
     document.write('<br>');
     document.write('<p> I am an Engineer </p>');
     document.write('<br>');
@@ -162,5 +162,5 @@ else{alert('Wrong Ans.');
     alert('welcome ' + username + ' and thanks for doing the quiz,I wish to you the best ');
     document.write('<p> ^_^ thanks for doing the quiz, I wish to you the best ^_^ </p> ');
     alert (" Thanks for your time"+ username);
-
+*/
     
